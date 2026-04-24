@@ -3,6 +3,7 @@ package com.avdo.tickets.domain;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.UUID;
 
 import org.checkerframework.checker.units.qual.C;
@@ -60,4 +61,16 @@ public class User {
     private LocalDateTime updatedAt;
 
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(id, user.id) && Objects.equals(name, user.name) && Objects.equals(email, user.email) && Objects.equals(createdAt, user.createdAt) && Objects.equals(updatedAt, user.updatedAt);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, email, createdAt, updatedAt);
+    }
 }

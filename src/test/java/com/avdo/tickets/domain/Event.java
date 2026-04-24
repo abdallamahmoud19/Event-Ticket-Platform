@@ -8,6 +8,7 @@ import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.UUID;
 
 import net.bytebuddy.asm.Advice;
@@ -61,6 +62,9 @@ public class Event {
     @ManyToMany(mappedBy="staffedEvents")
     private List<User> staff = new ArrayList<>();
 
+    @OneToMany(mappedBy = "event", cascade = CascadeType.ALL)
+    private List<TicketType> ticketTypes = new ArrayList<>();
+
     @CreatedDate
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
@@ -69,4 +73,17 @@ public class Event {
     @Column(name = "updated_at", nullable = false)
     private LocalDateTime updatedAt;
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Event event = (Event) o;
+        return Objects.equals(id, event.id) && Objects.equals(name, event.name) && Objects.equals(start, event.start) && Objects.equals(end, event.end) && Objects.equals(venue, event.venue) && Objects.equals(salesStart, event.salesStart) && Objects.equals(salesEnd, event.salesEnd) && status == event.status && Objects.equals(createdAt, event.createdAt) && Objects.equals(updatedAt, event.updatedAt);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, start, end, venue, salesStart, salesEnd, status, createdAt, updatedAt);
+    }
 }
