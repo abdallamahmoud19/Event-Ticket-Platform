@@ -6,20 +6,18 @@ import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
 
-import org.checkerframework.checker.units.qual.C;
+
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 
 import jakarta.persistence.*;
 import lombok.*;
-import net.bytebuddy.asm.Advice;
 @Entity
 @Table(name="users")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class User {
     @Id
     @Column(name = "id", updatable = false, nullable = false)
