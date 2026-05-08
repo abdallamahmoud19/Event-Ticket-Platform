@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfd549b3-fe2c-4c1a-9ef2-6a756a0cf321" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/Repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/TicketsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/config/JpaConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/EventStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/QrCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/QrCodeStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/TicketStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/TicketType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/TicketValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/TicketValidationMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/TicketValidationStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avdo/tickets/filters/UserProvisioningFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/orm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/avdo/tickets/TicketsApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abdallamahmoud19&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abdallamahmoud19/Event-Ticket-Platform.git&quot;,
+    &quot;accountId&quot;: &quot;7f850238-b5bd-4d8d-a460-f2b3ee5634b5&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3CcsazWojzX3M4pkPvGiyRGzfZq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TicketsApplication.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/programming/Projects/edafa projects/ExpenseTracker",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.TicketsApplication">
+    <configuration name="TicketsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avdo.tickets.TicketsApplication" />
+      <module name="tickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avdo.tickets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TicketsApplication" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfd549b3-fe2c-4c1a-9ef2-6a756a0cf321" name="Changes" comment="" />
+      <created>1776696259870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776696259870</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initialize Event Ticket Platform">
+      <option name="closed" value="true" />
+      <created>1776697121400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776697121400</updated>
+    </task>
+    <task id="LOCAL-00002" summary="• Set up Keycloak using Docker Compose with data persistence&#10;• Created realm, client, and test user in Keycloak&#10;• Connected Spring Boot application to Keycloak for JWT validation">
+      <option name="closed" value="true" />
+      <created>1776960966674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776960966674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="• Added Mapstruct dependency and version property to the project&#10;• Configured Maven Compiler Plugin for annotation processing&#10;• Set up Lombok-Mapstruct binding for compatibility">
+      <option name="closed" value="true" />
+      <created>1776961117410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776961117410</updated>
+    </task>
+    <task id="LOCAL-00004" summary="• Created the UserRepository interface&#10;• Implemented the UserProvisioningFilter">
+      <option name="closed" value="true" />
+      <created>1778254954400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778254954400</updated>
+    </task>
+    <task id="LOCAL-00005" summary="• Created Spring Security configuration file.&#10;• Disabled the CSRF mechanism on our REST API.&#10;• Configured Spring Security to be stateless.&#10;• Configured Spring Security to use the UserProvisioningFilter.">
+      <option name="closed" value="true" />
+      <created>1778262445652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778262445652</updated>
+    </task>
+    <task id="LOCAL-00006" summary="• Created JpaConfiguration class with the @EnableJpaAuditing annotation">
+      <option name="closed" value="true" />
+      <created>1778263703287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778263703287</updated>
+    </task>
+    <task id="LOCAL-00007" summary="• Added orm.xml configuration file enabling the audit fields">
+      <option name="closed" value="true" />
+      <created>1778263720777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778263720777</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".">
+      <option name="closed" value="true" />
+      <created>1778275484571</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778275484571</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/backend" />
+    </ignored-roots>
+    <MESSAGE value="Initialize Event Ticket Platform" />
+    <MESSAGE value="• Set up Keycloak using Docker Compose with data persistence&#10;• Created realm, client, and test user in Keycloak&#10;• Connected Spring Boot application to Keycloak for JWT validation" />
+    <MESSAGE value="• Added Mapstruct dependency and version property to the project&#10;• Configured Maven Compiler Plugin for annotation processing&#10;• Set up Lombok-Mapstruct binding for compatibility" />
+    <MESSAGE value="• Created the UserRepository interface&#10;• Implemented the UserProvisioningFilter" />
+    <MESSAGE value="• Created Spring Security configuration file.&#10;• Disabled the CSRF mechanism on our REST API.&#10;• Configured Spring Security to be stateless.&#10;• Configured Spring Security to use the UserProvisioningFilter." />
+    <MESSAGE value="• Created JpaConfiguration class with the @EnableJpaAuditing annotation" />
+    <MESSAGE value="• Added orm.xml configuration file enabling the audit fields" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+</project>
