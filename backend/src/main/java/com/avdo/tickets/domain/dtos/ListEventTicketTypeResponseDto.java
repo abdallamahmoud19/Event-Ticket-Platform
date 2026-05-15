@@ -1,5 +1,6 @@
-package com.avdo.tickets.domain;
+package com.avdo.tickets.domain.dtos;
 
+import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,11 +8,13 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateTicketTypeRequest {
+public class ListEventTicketTypeResponseDto {
 
+  private UUID id;
   private String name;
   private Double price;
   private String description;
   private Integer totalAvailable;
+
 }
 
