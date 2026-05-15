@@ -1,12 +1,11 @@
 package com.avdo.tickets.repositories;
 
-import com.avdo.tickets.domain.entities.User;
+import com.avdo.tickets.domain.entities.TicketValidation;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, UUID> {
-
+public interface TicketValidationRepository extends JpaRepository<TicketValidation, UUID> {
 }
 
